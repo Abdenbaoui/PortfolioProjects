@@ -2,7 +2,6 @@
 
 Covid 19 Data Exploration 
 
-Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 */
 
@@ -158,10 +157,5 @@ Join PortfolioProject..CovidVaccinations vac
 	On dea.location = vac.location
 	and dea.date = vac.date
 where dea.continent is not null 
-
-
-/*
-Credit ALEX THE ANALYST 
-*/
 
 
